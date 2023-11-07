@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator1" alignment="0" min="-2" pref="637" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="FinishButton" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" max="32767" attributes="0"/>
+                                          <Component id="CardCombo" max="32767" attributes="0"/>
+                                          <Component id="CardNum" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="MonthCombo" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="YearCombo" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="SecureCode" min="-2" pref="41" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="SCTip" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="LName" alignment="0" pref="187" max="32767" attributes="0"/>
+                                      <Component id="FName" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="BillAddress" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CityName" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="StateCombo" max="32767" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                              <Component id="ZipCode" min="-2" pref="95" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="PhoneNum" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="451" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="CardCombo" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="CityName" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="FName" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LName" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="StateCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ZipCode" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="CardNum" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="PhoneNum" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="MonthCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="YearCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SecureCode" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="BillAddress" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="SCTip" min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="FinishButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="PAYMENT/BILLING INFORMATION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Please select a payment method:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CardCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="------"/>
+            <StringItem index="1" value="Visa"/>
+            <StringItem index="2" value="MasterCard"/>
+            <StringItem index="3" value="Discover"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Account/Card Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CardNum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Expiration Date &amp; Security Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="MonthCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="--"/>
+            <StringItem index="1" value="01"/>
+            <StringItem index="2" value="02"/>
+            <StringItem index="3" value="03"/>
+            <StringItem index="4" value="04"/>
+            <StringItem index="5" value="05"/>
+            <StringItem index="6" value="06"/>
+            <StringItem index="7" value="07"/>
+            <StringItem index="8" value="08"/>
+            <StringItem index="9" value="09"/>
+            <StringItem index="10" value="10"/>
+            <StringItem index="11" value="11"/>
+            <StringItem index="12" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="YearCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="27">
+            <StringItem index="0" value="----"/>
+            <StringItem index="1" value="2014"/>
+            <StringItem index="2" value="2015"/>
+            <StringItem index="3" value="2016"/>
+            <StringItem index="4" value="2017"/>
+            <StringItem index="5" value="2018"/>
+            <StringItem index="6" value="2019"/>
+            <StringItem index="7" value="2020"/>
+            <StringItem index="8" value="2021"/>
+            <StringItem index="9" value="2022"/>
+            <StringItem index="10" value="2023"/>
+            <StringItem index="11" value="2024"/>
+            <StringItem index="12" value="2025"/>
+            <StringItem index="13" value="2026"/>
+            <StringItem index="14" value="2027"/>
+            <StringItem index="15" value="2028"/>
+            <StringItem index="16" value="2029"/>
+            <StringItem index="17" value="2030"/>
+            <StringItem index="18" value="2031"/>
+            <StringItem index="19" value="2032"/>
+            <StringItem index="20" value="2033"/>
+            <StringItem index="21" value="2034"/>
+            <StringItem index="22" value="2035"/>
+            <StringItem index="23" value="2036"/>
+            <StringItem index="24" value="2037"/>
+            <StringItem index="25" value="2038"/>
+            <StringItem index="26" value="2039"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SecureCode">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="LName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Billing Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BillAddress">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CityName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="StateCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="51">
+            <StringItem index="0" value="--"/>
+            <StringItem index="1" value="AL"/>
+            <StringItem index="2" value="AK"/>
+            <StringItem index="3" value="AZ"/>
+            <StringItem index="4" value="AR"/>
+            <StringItem index="5" value="CA"/>
+            <StringItem index="6" value="CO"/>
+            <StringItem index="7" value="CT"/>
+            <StringItem index="8" value="DE"/>
+            <StringItem index="9" value="FL"/>
+            <StringItem index="10" value="GA"/>
+            <StringItem index="11" value="HI"/>
+            <StringItem index="12" value="ID"/>
+            <StringItem index="13" value="IL"/>
+            <StringItem index="14" value="IN"/>
+            <StringItem index="15" value="IA"/>
+            <StringItem index="16" value="KS"/>
+            <StringItem index="17" value="KY"/>
+            <StringItem index="18" value="LA"/>
+            <StringItem index="19" value="ME"/>
+            <StringItem index="20" value="MD"/>
+            <StringItem index="21" value="MA"/>
+            <StringItem index="22" value="MI"/>
+            <StringItem index="23" value="MN"/>
+            <StringItem index="24" value="MS"/>
+            <StringItem index="25" value="MO"/>
+            <StringItem index="26" value="MT"/>
+            <StringItem index="27" value="NE"/>
+            <StringItem index="28" value="NV"/>
+            <StringItem index="29" value="NH"/>
+            <StringItem index="30" value="NJ"/>
+            <StringItem index="31" value="NM"/>
+            <StringItem index="32" value="NY"/>
+            <StringItem index="33" value="NC"/>
+            <StringItem index="34" value="ND"/>
+            <StringItem index="35" value="OH"/>
+            <StringItem index="36" value="OK"/>
+            <StringItem index="37" value="OR"/>
+            <StringItem index="38" value="PA"/>
+            <StringItem index="39" value="RI"/>
+            <StringItem index="40" value="SC"/>
+            <StringItem index="41" value="SD"/>
+            <StringItem index="42" value="TN"/>
+            <StringItem index="43" value="TX"/>
+            <StringItem index="44" value="UT"/>
+            <StringItem index="45" value="VT"/>
+            <StringItem index="46" value="VA"/>
+            <StringItem index="47" value="WA"/>
+            <StringItem index="48" value="WV"/>
+            <StringItem index="49" value="WI"/>
+            <StringItem index="50" value="WY"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ZipCode">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PhoneNum">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PhoneNumActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JButton" name="FinishButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm Checkout"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinishButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="SCTip">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="13" style="0"/>
+        </Property>
+        <Property name="label" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SCTipActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
